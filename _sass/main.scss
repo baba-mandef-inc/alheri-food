@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+
+//colors
+$marron-base : rgb(74, 46, 33);
+$primary: $marron-base;
+
+//titles
+$title-family:true;
+$subtitle-family:true;
+$title-color: rgb(74, 46, 33);
+
+// fonts
+@import "../fonts/al.TTF";
+$family-secondary: "cg times";
+
+//navbar 
+$navbar-item-color :rgb(74, 46, 33);
+$navbar-item-hover-color: rgb(74, 46, 33);
+$navbar-item-hover-background-color:#efaf00;
+$navbar-item-active-background-color : #444140;
+$navbar-burger-color: rgb(74, 46, 33);
+$navbar-item-img-max-height:3.75rem;
+
+// Custom variables
+// eg : $pink: #fff;
+// $primary: $pink
+
+@import "../node_modules/bulma/bulma";
