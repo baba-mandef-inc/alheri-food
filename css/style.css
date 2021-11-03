@@ -1,0 +1,40 @@
+
+.header{
+  /*  background-image: url('../images/2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background-color: rgb(193, 193, 193);
+}
+
+.alheri-nav{
+    font-size: 18px;
+    
+}
+
+.alheri-nav a{
+    margin-right:20px;
+    font-family: cg times; 
+
+}
+
+.head-hero{
+    border-radius: 1%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "cg times";
+    src: url("../fonts/al.TTF") format("ttf"),
+   }
+
+.sub-fam{
+    font-family: cg times;
+}
+   
+
